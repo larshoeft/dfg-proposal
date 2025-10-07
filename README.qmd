@@ -1,0 +1,128 @@
+---
+title: "Learning Chemistry through Dialogic Argumentation"
+subtitle: "Promoting Conceptual Change about Chemical Reactions"
+bibliography: references.bib
+csl: apa.csl
+format: gfm
+---
+
+## Introduction
+
+### Research Questions
+
+1.  Does engaging in dialogic argumentation enhance conceptual understanding from refutation texts on the concept of chemical reactions?
+2.  Does the conceptual stance of discussion partners in dialogic argumentation (e.g., both accurate vs. one accurate and one misconceived) influence conceptual understanding?
+3.  Do epistemic emotions mediate the relationship between the conceptual stance of discussion partners in dialogic argumentation and conceptual understanding?
+4.  Does a brief argumentation training intervention enhance conceptual understanding during dialogic argumentation, and is this effect mediated by reductions in confusion and frustration?
+
+### Proposed Model
+
+```{mermaid}
+flowchart LR
+    %% Knoten definieren
+    A[Type of<br/>Argumentation]
+    I[Intervention]
+    E[Epistemic<br/>Emotion]
+    EN[Engagement]
+    U[Conceptual<br/>Knowledge]
+    M(( ))
+    
+    %% Verbindungen
+    A --> E
+    A --> M
+    M --> EN
+    I --> M
+    E --> U
+    EN --> U
+    A --> U
+    
+    %% Styling
+    classDef default fill:#fff,stroke:#333,stroke-width:2px,color:#000
+    classDef dot fill:#333,stroke:#333,stroke-width:1px
+    class M dot
+    
+    %% Knoten M sehr klein machen
+    style M width:1px,height:1px,fill:#333
+```
+
+## Study 1
+
+### Research Questions
+
+1.  Does engaging in dialogic argumentation enhance conceptual understanding from refutation texts on the concept of chemical reactions?
+2.  Do epistemic emotions mediate the relationship between the conceptual stance of discussion partners in dialogic argumentation and conceptual understanding?
+
+### Procedure
+
++--------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------------------------------+
+| Phase        | Shared Procedure                                                                           | CG Description                                                 | EG Description                                                              |
++==============+============================================================================================+================================================================+=============================================================================+
+| Pre-test     | Assess students' conceptual understanding of **chemical reactions**.                       | —                                                              | —                                                                           |
++--------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------------------------------+
+| Manipulation | -   Students complete multiple tasks on chemical reactions in randomized order             | LLM provides corrective feedback on the student's explanations | LLM formulates counterarguments and requests clarification from the student |
+|              | -   Correct answers are provided                                                           |                                                                |                                                                             |
+|              | -   Students explain to an LLM agent *why* the provided answer is correct                  |                                                                |                                                                             |
++--------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------------------------------+
+| Post-test    | Assess students' conceptual understanding of **chemical reactions** after the intervention | —                                                              | —                                                                           |
++--------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------------------------------------------------------------------------+
+
+: Overview of Study Procedure for Control (CG) and Experimental Groups (EG)
+
+**Note.** CG = Control Group; EG = Experimental Group. Shared Procedure describes steps common to both groups.
+
+### Material
+
+-   omc (4 - 6 options?)
+-   open answer
+
+## Study 2
+
+### Research Questions
+
+1.  Does engaging in dialogic argumentation enhance conceptual understanding from refutation texts on the concept of chemical reactions?
+2.  Does the conceptual stance of discussion partners in dialogic argumentation (e.g., both accurate vs. one accurate and one misconceived) influence conceptual understanding?
+3.  Do epistemic emotions mediate the relationship between the conceptual stance of discussion partners in dialogic argumentation and conceptual understanding?
+
+### Procedure:
+
++--------------+--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| Phase        | Shared Procedure                                                                           | Control Group                                                                 | Experimental Group 1                                                                                                                | Experimental Group 2                                                                                                                        |
++==============+============================================================================================+===============================================================================+=====================================================================================================================================+=============================================================================================================================================+
+| Pre-Test     | Assess students' conceptual understanding of **chemical reactions**.                       | —                                                                             | —                                                                                                                                   | —                                                                                                                                           |
++--------------+--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| Manipulation | Students complete multiple tasks on chemical reactions in randomized order                 | -   Receive correct answers                                                   | -   Receive correct answers                                                                                                         | -   Receive correct answers                                                                                                                 |
+|              |                                                                                            | -   Explain to an LLM agent *why* the provided answer is correct              | -   Explain to an LLM agent *why* the provided answer is correct                                                                    | -   Explain to an LLM agent *why* the provided answer is correct                                                                            |
+|              |                                                                                            | -   Engage in dialogic argumentation with a typical/default LLM (see Study 1) | -   Engage in dialogic argumentation with two LLM agents: both exhibiting accurate understanding of the scientific concept and task | -   Engage in dialogic argumentation with two LLM agents: one accurate, one exhibiting misconceptions and inappropriate task interpretation |
++--------------+--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| Post-Test    | Assess students' conceptual understanding of **chemical reactions** after the intervention | —                                                                             | —                                                                                                                                   | —                                                                                                                                           |
++--------------+--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Overview of Study Procedure for Control (CG) and Experimental Groups (EG)
+
+**Note.** CG = Control Group; EG = Experimental Group. Shared Procedure describes steps common to both groups.
+
+## Study 3
+
+### Research question
+
+4.  Does a brief argumentation training intervention enhance conceptual understanding during dialogic argumentation, and is this effect mediated by reductions in confusion and frustration?
+
++--------------+----------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| Phase        | Shared Procedure                                                                       | Control Group                                                                                                                               | Experimental Group                                                                                                                          |
++==============+========================================================================================+=============================================================================================================================================+=============================================================================================================================================+
+| Pre-Test     | Assess students’ conceptual understanding of **chemical reactions**.                   | —                                                                                                                                           | —                                                                                                                                           |
++--------------+----------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| Intervention |                                                                                        |                                                                                                                                             | Students receive instruction on argument formulation and the objectives of argumentation.                                                   |
++--------------+----------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+|              | Students complete multiple tasks on chemical reactions in randomized order             | -   Receive correct answers                                                                                                                 | -   Receive correct answers                                                                                                                 |
+|              |                                                                                        |                                                                                                                                             |                                                                                                                                             |
+|              |                                                                                        | -   Explain to an LLM agent *why* the provided answer is correct                                                                            | -   Explain to an LLM agent *why* the provided answer is correct                                                                            |
+|              |                                                                                        |                                                                                                                                             |                                                                                                                                             |
+|              |                                                                                        | -   Engage in dialogic argumentation with two LLM agents: one accurate, one exhibiting misconceptions and inappropriate task interpretation | -   Engage in dialogic argumentation with two LLM agents: one accurate, one exhibiting misconceptions and inappropriate task interpretation |
++--------------+----------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| Post-Test    | Assess students’ conceptual understanding of chemical reactions after the intervention | —                                                                                                                                           | —                                                                                                                                           |
++--------------+----------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Overview of Study Procedure for Control (CG) and Experimental Groups (EG)
+
+**Note.** CG = Control Group; EG = Experimental Group. Shared Procedure describes steps common to both groups.
