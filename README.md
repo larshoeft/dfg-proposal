@@ -3,6 +3,40 @@
 
 ## Introduction
 
+Students often enter the classroom with preconceptions or alternative
+conceptions—commonly referred to as misconceptions—about scientific
+phenomena. These misconceptions typically develop through everyday
+experiences or even as a result of prior classroom instruction, and
+while they may be functional in daily reasoning, they often contradict
+scientific explanations. Achieving a *conceptual change*, that is, a
+shift from intuitive or naïve conceptions to scientifically accurate
+understanding, is known to be a challenging and gradual process \[Chi &
+Vosniadou (2008); diSessa (2017); Vosniadou (1994). Moreover, research
+suggests that alternative and scientific conceptions can coexist for
+extended periods before a stable conceptual restructuring occurs.
+
+To facilitate conceptual change, instructional approaches such as
+*refutation texts* and *dialogical argumentation* have proven effective.
+Refutation texts explicitly present a common misconception, refute it,
+and then introduce the scientifically accepted concept. Dialogical
+argumentation engages learners in discussing and reasoning about
+conflicting viewpoints. Both methods are designed to induce *cognitive
+incongruence*, a state of mental conflict that arises when new
+information challenges existing beliefs.
+
+Experiencing such incongruence can evoke *epistemic emotions*, which are
+emotions directly related to knowledge acquisition and cognitive
+processing. These emotions can either enhance learning—such as curiosity
+and enjoyment—or hinder it—such as frustration and anxiety (Muis et al.,
+2018; Pekrun, 2024).
+
+The present study aims to investigate the combined use of refutation
+texts and dialogical argumentation in promoting and consolidating
+conceptual change. Furthermore, it seeks to explore the role of
+epistemic emotions in mediating or moderating these learning processes,
+thereby contributing to a deeper understanding of the emotional dynamics
+involved in conceptual change.
+
 ### Refutation Texts
 
 - “findings show a consistent and statistically significant advantage of
@@ -69,9 +103,9 @@
 
 ### Research Questions
 
-1.  Does engaging in dialogic argumentation enhance conceptual
-    understanding from refutation texts on the concept of chemical
-    reactions?
+1.  Does engaging in dialogic argumentation contribute to the
+    consolidation conceptual understanding from refutation texts on the
+    concept of chemical reactions?
 2.  Does the conceptual stance of discussion partners in dialogic
     argumentation (e.g., both accurate vs. one accurate and one
     misconceived) influence conceptual understanding?
@@ -364,6 +398,14 @@ describes steps common to both groups.
 <div id="refs" class="references csl-bib-body hanging-indent"
 entry-spacing="0" line-spacing="2">
 
+<div id="ref-chi2008_international" class="csl-entry">
+
+Chi, M., & Vosniadou, S. (2008). International handbook of research on
+conceptual change. *Three Types of Conceptual Change Belief Revision,
+Mental Model Transformation and Categorial Shift*, 6182.
+
+</div>
+
 <div id="ref-danielson2025_effectiveness" class="csl-entry">
 
 Danielson, R. W., Jacobson, N. G., Patall, E. A., Sinatra, G. M.,
@@ -381,6 +423,14 @@ Danielson, R. W., Sinatra, G. M., Trevors, G., Muis, K. R., Pekrun, R.,
 & Heddy, B. C. (2023). Can Multiple Texts Prompt Causal Thinking? The
 Role of Epistemic Emotions. *The Journal of Experimental Education*,
 *91*(4), 621–635. <https://doi.org/10.1080/00220973.2022.2107604>
+
+</div>
+
+<div id="ref-disessa2017_conceptual" class="csl-entry">
+
+diSessa, A. A. (2017). Conceptual Change in a Microcosm: Comparative
+Learning Analysis of a Learning Event. *Human Development*, *60*(1),
+1–37. <https://doi.org/10.1159/000469693>
 
 </div>
 
@@ -431,12 +481,28 @@ feelings. *New Ideas in Psychology*, *63*, 100904.
 
 </div>
 
+<div id="ref-pekrun2024_controlvalue" class="csl-entry">
+
+Pekrun, R. (2024). Control-Value Theory: From Achievement Emotion to a
+General Theory of Human Emotions. *Educational Psychology Review*,
+*36*(3), 83. <https://doi.org/10.1007/s10648-024-09909-7>
+
+</div>
+
 <div id="ref-schroeder2022_refutation" class="csl-entry">
 
 Schroeder, N. L., & Kucera, A. C. (2022). Refutation Text Facilitates
 Learning: a Meta-Analysis of Between-Subjects Experiments. *Educational
 Psychology Review*, *34*(2), 957–987.
 <https://doi.org/10.1007/s10648-021-09656-z>
+
+</div>
+
+<div id="ref-vosniadou1994_capturing" class="csl-entry">
+
+Vosniadou, S. (1994). Capturing and modeling the process of conceptual
+change. *Learning and Instruction*, *4*(1), 45–69.
+<https://doi.org/10.1016/0959-4752(94)90018-3>
 
 </div>
 

@@ -8,6 +8,14 @@ format: gfm
 
 ## Introduction
 
+Students often enter the classroom with preconceptions or alternative conceptions—commonly referred to as misconceptions—about scientific phenomena. These misconceptions typically develop through everyday experiences or even as a result of prior classroom instruction, and while they may be functional in daily reasoning, they often contradict scientific explanations. Achieving a *conceptual change*, that is, a shift from intuitive or naïve conceptions to scientifically accurate understanding, is known to be a challenging and gradual process \[@chi2008_international; @disessa2017_conceptual; @vosniadou1994_capturing. Moreover, research suggests that alternative and scientific conceptions can coexist for extended periods before a stable conceptual restructuring occurs.
+
+To facilitate conceptual change, instructional approaches such as *refutation texts* and *dialogical argumentation* have proven effective. Refutation texts explicitly present a common misconception, refute it, and then introduce the scientifically accepted concept. Dialogical argumentation engages learners in discussing and reasoning about conflicting viewpoints. Both methods are designed to induce *cognitive incongruence*, a state of mental conflict that arises when new information challenges existing beliefs.
+
+Experiencing such incongruence can evoke *epistemic emotions*, which are emotions directly related to knowledge acquisition and cognitive processing. These emotions can either enhance learning—such as curiosity and enjoyment—or hinder it—such as frustration and anxiety [@pekrun2024_controlvalue; @muis2018_role].
+
+The present study aims to investigate the combined use of refutation texts and dialogical argumentation in promoting and consolidating conceptual change. Furthermore, it seeks to explore the role of epistemic emotions in mediating or moderating these learning processes, thereby contributing to a deeper understanding of the emotional dynamics involved in conceptual change.
+
 ### Refutation Texts
 
 -   "findings show a consistent and statistically significant advantage of refutation texts over non-refutation texts in controlled experiments confronting scientific misconceptions. We also found that moderators neither enhanced nor diminished the impact of the refutation texts." [@danielson2025_effectiveness]
@@ -30,7 +38,7 @@ format: gfm
 
 ### Research Questions
 
-1.  Does engaging in dialogic argumentation enhance conceptual understanding from refutation texts on the concept of chemical reactions?
+1.  Does engaging in dialogic argumentation contribute to the consolidation conceptual understanding from refutation texts on the concept of chemical reactions?
 2.  Does the conceptual stance of discussion partners in dialogic argumentation (e.g., both accurate vs. one accurate and one misconceived) influence conceptual understanding?
 3.  Do epistemic emotions mediate the relationship between the conceptual stance of discussion partners in dialogic argumentation and conceptual understanding?
 4.  Does a brief argumentation training intervention enhance conceptual understanding during dialogic argumentation, and is this effect mediated by reductions in confusion and frustration?
