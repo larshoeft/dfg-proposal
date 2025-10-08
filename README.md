@@ -10,8 +10,8 @@ experiences or even as a result of prior classroom instruction, and
 while they may be functional in daily reasoning, they often contradict
 scientific explanations. Achieving a *conceptual change*, that is, a
 shift from intuitive or naïve conceptions to scientifically accurate
-understanding, is known to be a challenging and gradual process \[Chi &
-Vosniadou (2008); diSessa (2017); Vosniadou (1994). Moreover, research
+understanding, is known to be a challenging and gradual process (Chi &
+Vosniadou, 2008; diSessa, 2017; Vosniadou, 1994). Moreover, research
 suggests that alternative and scientific conceptions can coexist for
 extended periods before a stable conceptual restructuring occurs.
 
