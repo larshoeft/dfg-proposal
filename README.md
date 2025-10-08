@@ -3,6 +3,45 @@
 
 ## Introduction
 
+### Refutation Texts
+
+- “findings show a consistent and statistically significant advantage of
+  refutation texts over non-refutation texts in controlled experiments
+  confronting scientific misconceptions. We also found that moderators
+  neither enhanced nor diminished the impact of the refutation texts.”
+  (Danielson et al., 2025)
+- “refutation text is associated with a positive, moderate effect
+  (*g* = 0.41, *p* \< .001) compared to other learning conditions. This
+  effect was consistent and robust across a wide variety of contexts”
+  (Schroeder & Kucera, 2022)
+- “Methodological issues we identified centered on problems of using a
+  single topic (or very few) within a study, the role of testing in
+  conceptual change, and the durability of change beyond an immediate
+  posttest.” (Zengilowski et al., 2021)
+
+### Argumentation
+
+- “Furthermore, the deeper integration of computer technology and
+  argumentation needs to be strengthened in the future.” (Fu & Zhan,
+  2025)
+- “It is proved that online argumentation activities have an
+  upper-middle positive effect on students’ “Learn to Argue” (Hedges’
+  g = 0.603, P = 0.000) and “Argue to Learn” (Hedges’ g = 0.596,
+  P = 0.000) abilities. Finally, the results of moderator analysis
+  showed that the natural science issues have the greatest effect.
+  Compared with higher education, online scientific argumentation is of
+  greater value in K-12 classroom.” (Zhou, 2024)
+- “Those who read congruent texts showed greater knowledge gains and
+  were more likely to think causally than those in the incongruent
+  group.” (Danielson et al., 2023)
+
+### Epistemic Emotions
+
+- “epistemic emotions are triggered by cognitive states involving
+  discrepancy, or conflict, between active schemas and incoming
+  information, or gap in one’s knowledge” (Nerantzaki et al., 2021)
+- confusion -\> frustration -\> no learning gains (Muis et al., 2025)
+
 ### Research Questions
 
 1.  Does engaging in dialogic argumentation enhance conceptual
@@ -44,8 +83,8 @@ flowchart LR
     
     %% Styling
     classDef default fill:#fff,stroke:#333,stroke-width:2px,color:#000
-    %%classDef dot fill:#333,stroke:#333,stroke-width:2px
-    %%class M1 dot
+    %% classDef dot fill:#333,stroke:#333,stroke-width:2px
+    %% class M1 dot
     
     %% Knoten M sehr klein machen
     style M1 width:1px,height:1px,fill:#333
@@ -279,3 +318,86 @@ after the intervention</td>
 
 **Note.** CG = Control Group; EG = Experimental Group. Shared Procedure
 describes steps common to both groups.
+
+## References
+
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0" line-spacing="2">
+
+<div id="ref-danielson2025_effectiveness" class="csl-entry">
+
+Danielson, R. W., Jacobson, N. G., Patall, E. A., Sinatra, G. M.,
+Adesope, O. O., Kennedy, A. A. U., H. Bhat, B., Ramazan, O., Akinrotimi,
+B., Nketah, G., Jin, G., & Sunday, O. J. (2025). The effectiveness of
+refutation text in confronting scientific misconceptions: A
+meta-analysis. *Educational Psychologist*, *60*(1), 23–47.
+<https://doi.org/10.1080/00461520.2024.2365628>
+
+</div>
+
+<div id="ref-danielson2023_can" class="csl-entry">
+
+Danielson, R. W., Sinatra, G. M., Trevors, G., Muis, K. R., Pekrun, R.,
+& Heddy, B. C. (2023). Can Multiple Texts Prompt Causal Thinking? The
+Role of Epistemic Emotions. *The Journal of Experimental Education*,
+*91*(4), 621–635. <https://doi.org/10.1080/00220973.2022.2107604>
+
+</div>
+
+<div id="ref-fu2025_effectiveness" class="csl-entry">
+
+Fu, X., & Zhan, Q. (2025). Effectiveness of argument in science
+education: a meta-analysis based on the results of 17 experiments.
+*Research in Science & Technological Education*, 1–21.
+<https://doi.org/10.1080/02635143.2025.2527603>
+
+</div>
+
+<div id="ref-muis2025_confusion" class="csl-entry">
+
+Muis, K. R., Kohatsu, M., Pekrun, R., & Li, S. (2025). Confusion and
+confusion regulation: An empirical investigation of the emotion
+regulation in achievement situations model. *Contemporary Educational
+Psychology*, *80*, 102350.
+<https://doi.org/10.1016/j.cedpsych.2025.102350>
+
+</div>
+
+<div id="ref-nerantzaki2021_epistemic" class="csl-entry">
+
+Nerantzaki, K., Efklides, A., & Metallidou, P. (2021). Epistemic
+emotions: Cognitive underpinnings and relations with metacognitive
+feelings. *New Ideas in Psychology*, *63*, 100904.
+<https://doi.org/10.1016/j.newideapsych.2021.100904>
+
+</div>
+
+<div id="ref-schroeder2022_refutation" class="csl-entry">
+
+Schroeder, N. L., & Kucera, A. C. (2022). Refutation Text Facilitates
+Learning: a Meta-Analysis of Between-Subjects Experiments. *Educational
+Psychology Review*, *34*(2), 957–987.
+<https://doi.org/10.1007/s10648-021-09656-z>
+
+</div>
+
+<div id="ref-zengilowski2021_critical" class="csl-entry">
+
+Zengilowski, A., Schuetze, B. A., Nash, B. L., & Schallert, D. L.
+(2021). A critical review of the refutation text literature:
+Methodological confounds, theoretical problems, and possible solutions.
+*Educational Psychologist*, *56*(3), 175–195.
+<https://doi.org/10.1080/00461520.2020.1861948>
+
+</div>
+
+<div id="ref-zhou2024_learn" class="csl-entry">
+
+Zhou, D. (2024). “Learn to Argue” and “Argue to Learn”: meta-analysis of
+effective instructional design for online scientific argumentation
+activities. *Interactive Learning Environments*, *32*(9), 4857–4880.
+<https://doi.org/10.1080/10494820.2023.2205904>
+
+</div>
+
+</div>

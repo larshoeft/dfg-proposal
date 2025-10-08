@@ -8,6 +8,24 @@ format: gfm
 
 ## Introduction
 
+### Refutation Texts
+
+-   "findings show a consistent and statistically significant advantage of refutation texts over non-refutation texts in controlled experiments confronting scientific misconceptions. We also found that moderators
+    neither enhanced nor diminished the impact of the refutation texts." [@danielson2025_effectiveness]
+-   "refutation text is associated with a positive, moderate effect (*g* = 0.41, *p* \< .001) compared to other learning conditions. This effect was consistent and robust across a wide variety of contexts" [@schroeder2022_refutation]
+-   "Methodological issues we identified centered on problems of using a single topic (or very few) within a study, the role of testing in conceptual change, and the durability of change beyond an immediate posttest." [@zengilowski2021_critical]
+
+### Argumentation
+
+-   "Furthermore, the deeper integration of computer technology and argumentation needs to be strengthened in the future." [@fu2025_effectiveness]
+-   "It is proved that online argumentation activities have an upper-middle positive effect on students’ “Learn to Argue” (Hedges’ g = 0.603, P = 0.000) and “Argue to Learn” (Hedges’ g = 0.596, P = 0.000) abilities. Finally, the results of moderator analysis showed that the natural science issues have the greatest effect. Compared with higher education, online scientific argumentation is of greater value in K-12 classroom." [@zhou2024_learn]
+-   "Those who read congruent texts showed greater knowledge gains and were more likely to think causally than those in the incongruent group." [@danielson2023_can]
+
+### Epistemic Emotions
+
+-   "epistemic emotions are triggered by cognitive states involving discrepancy, or conflict, between active schemas and incoming information, or gap in one's knowledge" [@nerantzaki2021_epistemic]
+-   confusion -\> frustration -\> no learning gains [@muis2025_confusion]
+
 ### Research Questions
 
 1.  Does engaging in dialogic argumentation enhance conceptual understanding from refutation texts on the concept of chemical reactions?
@@ -130,3 +148,10 @@ flowchart LR
 : Overview of Study Procedure for Control (CG) and Experimental Groups (EG)
 
 **Note.** CG = Control Group; EG = Experimental Group. Shared Procedure describes steps common to both groups.
+
+## References
+
+
+::: {#refs}
+:::
+
