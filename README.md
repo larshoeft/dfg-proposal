@@ -28,24 +28,28 @@ flowchart LR
     E[Epistemic<br/>Emotion]
     EN[Engagement]
     U[Conceptual<br/>Knowledge]
-    M(( ))
+    M1(( ))
+    M2(( ))
     
     %% Verbindungen
-    A --> E
-    A --> M
-    M --> EN
-    I --> M
+    A --> M1
+    A --> M2
+    M1 --> EN
+    M2 --> E
+    I --> M1
+    I --> M2
     E --> U
     EN --> U
     A --> U
     
     %% Styling
     classDef default fill:#fff,stroke:#333,stroke-width:2px,color:#000
-    classDef dot fill:#333,stroke:#333,stroke-width:1px
-    class M dot
+    %%classDef dot fill:#333,stroke:#333,stroke-width:2px
+    %%class M1 dot
     
     %% Knoten M sehr klein machen
-    style M width:1px,height:1px,fill:#333
+    style M1 width:1px,height:1px,fill:#333
+    style M2 width:1px,height:1px,fill:#333
 ```
 
 ## Study 1
