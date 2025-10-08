@@ -10,14 +10,23 @@
   confronting scientific misconceptions. We also found that moderators
   neither enhanced nor diminished the impact of the refutation texts.”
   (Danielson et al., 2025)
-- “refutation text is associated with a positive, moderate effect
-  (*g* = 0.41, *p* \< .001) compared to other learning conditions. This
-  effect was consistent and robust across a wide variety of contexts”
+- “refutation text is associated with a positive, moderate effect (*g* =
+  0.41, *p* \< .001) compared to other learning conditions. This effect
+  was consistent and robust across a wide variety of contexts”
   (Schroeder & Kucera, 2022)
 - “Methodological issues we identified centered on problems of using a
   single topic (or very few) within a study, the role of testing in
   conceptual change, and the durability of change beyond an immediate
   posttest.” (Zengilowski et al., 2021)
+- “A crucial factor impeding science learning (from texts) are
+  misconceptions. To encourage active engagement with these
+  misconceptions, refutation texts have been established as a promising
+  tool. Unfortunately, poor readers usually do not benefit from these
+  texts. Hence, graphic organizers in combination with refutation texts
+  can be considered to scaffold those readers. To further support
+  consolidation of newly learned information into the long-term memory,
+  a variety of instructional tasks can be implemented.” (Kröger et al.,
+  2025)
 
 ### Argumentation
 
@@ -25,12 +34,12 @@
   argumentation needs to be strengthened in the future.” (Fu & Zhan,
   2025)
 - “It is proved that online argumentation activities have an
-  upper-middle positive effect on students’ “Learn to Argue” (Hedges’
-  g = 0.603, P = 0.000) and “Argue to Learn” (Hedges’ g = 0.596,
-  P = 0.000) abilities. Finally, the results of moderator analysis
-  showed that the natural science issues have the greatest effect.
-  Compared with higher education, online scientific argumentation is of
-  greater value in K-12 classroom.” (Zhou, 2024)
+  upper-middle positive effect on students’”Learn to Argue” (Hedges’ g =
+  0.603, P = 0.000) and “Argue to Learn” (Hedges’ g = 0.596, P = 0.000)
+  abilities. Finally, the results of moderator analysis showed that the
+  natural science issues have the greatest effect. Compared with higher
+  education, online scientific argumentation is of greater value in K-12
+  classroom.” (Zhou, 2024)
 - “Those who read congruent texts showed greater knowledge gains and
   were more likely to think causally than those in the incongruent
   group.” (Danielson et al., 2023)
@@ -40,6 +49,22 @@
 - “epistemic emotions are triggered by cognitive states involving
   discrepancy, or conflict, between active schemas and incoming
   information, or gap in one’s knowledge” (Nerantzaki et al., 2021)
+- “Accordingly, epistemic emotions that learners experience when they
+  begin to form a definition of a task may provide cues to learners that
+  particular goals may or may not be achievable. Individuals may then
+  adjust goals as a function of those cues (downgrading or upgrading).
+  Of course, epistemic emotions that arise during the enactment or
+  evaluation phases may subsequently lead learners to revise previous
+  goals. For example, as a learner progresses in a task and achieves one
+  of the epistemic aims, he or she may revise that goal and set the
+  standard even higher than the original. In addition, epistemic
+  emotions may serve as cues to learners to set particular plans for
+  carrying out the task. If a learner experiences confusion surrounding
+  the parameters of a mathematics problem, that individual may then plan
+  to construct a concept map of that problem and coordinate
+  informational sources between the problem text and the concept map to
+  reduce confusion (Muis, Psaradellis, et al., 2015).” (Muis et al.,
+  2018)
 - confusion -\> frustration -\> no learning gains (Muis et al., 2025)
 
 ### Research Questions
@@ -90,6 +115,24 @@ flowchart LR
     style M1 width:1px,height:1px,fill:#333
     style M2 width:1px,height:1px,fill:#333
 ```
+
+=\> How should engagement be operationalized and measured (e.g.,
+keystrokes)?   
+=\> Should the quality/strategy of argumentation also be evaluated in
+Study 3 (how is this operationalized and measured)?
+
+### Shared Material
+
+- Pre-/Post-Test
+- Refutation text A, B, C
+- Consolidation Task Design: two-tier (ordered) multiple-choice with
+  varying contexts
+  1.  closed format (OMC)
+  2.  open format - reasoning
+  3.  chat - argument
+  4.  open format - revision
+
+=\> How should open-ended answers be coded and evaluated?
 
 ## Study 1
 
@@ -155,10 +198,7 @@ reactions</strong> after the intervention</td>
 **Note.** CG = Control Group; EG = Experimental Group. Shared Procedure
 describes steps common to both groups.
 
-### Material
-
-- omc (4 - 6 options?)
-- open answer
+=\> Is a control group without LLM interaction (chat) necessary?
 
 ## Study 2
 
@@ -350,6 +390,25 @@ Fu, X., & Zhan, Q. (2025). Effectiveness of argument in science
 education: a meta-analysis based on the results of 17 experiments.
 *Research in Science & Technological Education*, 1–21.
 <https://doi.org/10.1080/02635143.2025.2527603>
+
+</div>
+
+<div id="ref-kroger2025_promoting" class="csl-entry">
+
+Kröger, J., Härtig, H., Retelsdorf, J., & Bernholt, S. (2025). Promoting
+Text Comprehension through Refutation, Visualization and Consolidation A
+Triad Approach to Facilitate Learning from Texts. *International Journal
+of Science and Mathematics Education*.
+<https://doi.org/10.1007/s10763-025-10608-0>
+
+</div>
+
+<div id="ref-muis2018_role" class="csl-entry">
+
+Muis, K. R., Chevrier, M., & Singh, C. A. (2018). The Role of Epistemic
+Emotions in Personal Epistemology and Self-Regulated Learning.
+*Educational Psychologist*, *53*(3), 165–184.
+<https://doi.org/10.1080/00461520.2017.1421465>
 
 </div>
 
