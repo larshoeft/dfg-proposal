@@ -1,41 +1,39 @@
 # Learning Chemistry through Dialogic Argumentation
-
+Lars Höft
 
 ## Introduction
 
-Students often enter the classroom with preconceptions or alternative
+Students often enter the classroom with naïve conceptions or alternative
 conceptions—commonly referred to as misconceptions—about scientific
-phenomena. These misconceptions typically develop through everyday
-experiences or even as a result of prior classroom instruction, and
-while they may be functional in daily reasoning, they often contradict
-scientific explanations. Achieving a *conceptual change*, that is, a
-shift from intuitive or naïve conceptions to scientifically accurate
-understanding, is known to be a challenging and gradual process (Chi &
-Vosniadou, 2008; diSessa, 2017; Vosniadou, 1994). Moreover, research
-suggests that alternative and scientific conceptions can coexist for
-extended periods before a stable conceptual restructuring occurs.
-
-To facilitate conceptual change, instructional approaches such as
-*refutation texts* and *dialogical argumentation* have proven effective.
-Refutation texts explicitly present a common misconception, refute it,
-and then introduce the scientifically accepted concept. Dialogical
-argumentation engages learners in discussing and reasoning about
-conflicting viewpoints. Both methods are designed to induce *cognitive
-incongruence*, a state of mental conflict that arises when new
-information challenges existing beliefs.
-
-Experiencing such incongruence can evoke *epistemic emotions*, which are
-emotions directly related to knowledge acquisition and cognitive
-processing. These emotions can either enhance learning—such as curiosity
-and enjoyment—or hinder it—such as frustration and anxiety (Muis et al.,
-2018; Pekrun, 2024).
-
-The present study aims to investigate the combined use of refutation
-texts and dialogical argumentation in promoting and consolidating
-conceptual change. Furthermore, it seeks to explore the role of
-epistemic emotions in mediating or moderating these learning processes,
-thereby contributing to a deeper understanding of the emotional dynamics
-involved in conceptual change.
+phenomena. These misconceptions may develop through everyday experiences
+or prior classroom instruction and, while functional in daily reasoning,
+often contradict scientific explanations. Achieving a conceptual change,
+that is, a shift from intuitive or naïve conceptions to scientifically
+accurate understanding, i.e., a more sophisticated concept, is a
+challenging and gradual process that unfolds individually and does not
+necessarily follow a linear trajectory (Chi & Vosniadou, 2008; diSessa,
+2017; Vosniadou, 1994). Research also suggests that alternative and
+scientific conceptions can coexist for extended periods before stable
+restructuring occurs. Instructional approaches such as refutation texts
+have proven effective by explicitly presenting a misconception, refuting
+it, and introducing the scientifically accepted concept. However, the
+durability of conceptual change beyond an immediate posttest is
+uncertain, making consolidation tasks essential. Dialogical
+argumentation can support this process by engaging learners in reasoning
+about conflicting interpretations of a scientific phenomenon, deepening
+understanding and enhancing the generality and explanatory power of the
+new concept across different contexts. Both methods aim to induce
+cognitive incongruence, a state of mental conflict that arises when new
+information challenges existing beliefs, which can evoke epistemic
+emotions. These emotions, directly related to knowledge acquisition and
+cognitive processing, can either enhance learning, such as curiosity and
+enjoyment, or impede it, such as frustration and anxiety (Muis et al.,
+2018; Pekrun, 2024). The proposed project aims to investigate the
+combined use of refutation texts and dialogical argumentation in
+promoting and consolidating conceptual change and examines the role of
+epistemic emotions in mediating these processes, contributing to a
+deeper understanding of the emotional dynamics involved in conceptual
+change.
 
 ### Refutation Texts
 
@@ -151,7 +149,7 @@ flowchart LR
 ```
 
 =\> How should engagement be operationalized and measured (e.g.,
-keystrokes)?   
+keystrokes)?  
 =\> Should the quality/strategy of argumentation also be evaluated in
 Study 3 (how is this operationalized and measured)?
 
@@ -364,20 +362,18 @@ objectives of argumentation.</td>
 <td>Students complete multiple tasks on chemical reactions in randomized
 order</td>
 <td><ul>
-<li><p>Receive correct answers</p></li>
-<li><p>Explain to an LLM agent <em>why</em> the provided answer is
-correct</p></li>
-<li><p>Engage in dialogic argumentation with two LLM agents: one
-accurate, one exhibiting misconceptions and inappropriate task
-interpretation</p></li>
+<li>Receive correct answers</li>
+<li>Explain to an LLM agent <em>why</em> the provided answer is
+correct</li>
+<li>Engage in dialogic argumentation with two LLM agents: one accurate,
+one exhibiting misconceptions and inappropriate task interpretation</li>
 </ul></td>
 <td><ul>
-<li><p>Receive correct answers</p></li>
-<li><p>Explain to an LLM agent <em>why</em> the provided answer is
-correct</p></li>
-<li><p>Engage in dialogic argumentation with two LLM agents: one
-accurate, one exhibiting misconceptions and inappropriate task
-interpretation</p></li>
+<li>Receive correct answers</li>
+<li>Explain to an LLM agent <em>why</em> the provided answer is
+correct</li>
+<li>Engage in dialogic argumentation with two LLM agents: one accurate,
+one exhibiting misconceptions and inappropriate task interpretation</li>
 </ul></td>
 </tr>
 <tr>
