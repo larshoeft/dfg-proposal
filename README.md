@@ -3,37 +3,39 @@ Lars Höft
 
 ## Introduction
 
-Students often enter the classroom with naïve conceptions or alternative
+Students often enter the classroom with preconceptions or alternative
 conceptions—commonly referred to as misconceptions—about scientific
-phenomena. These misconceptions may develop through everyday experiences
-or prior classroom instruction and, while functional in daily reasoning,
-often contradict scientific explanations. Achieving a conceptual change,
-that is, a shift from intuitive or naïve conceptions to scientifically
-accurate understanding, i.e., a more sophisticated concept, is a
-challenging and gradual process that unfolds individually and does not
-necessarily follow a linear trajectory (Chi & Vosniadou, 2008; diSessa,
-2017; Vosniadou, 1994). Research also suggests that alternative and
-scientific conceptions can coexist for extended periods before stable
-restructuring occurs. Instructional approaches such as refutation texts
-have proven effective by explicitly presenting a misconception, refuting
-it, and introducing the scientifically accepted concept. However, the
-durability of conceptual change beyond an immediate posttest is
-uncertain, making consolidation tasks essential. Dialogical
-argumentation can support this process by engaging learners in reasoning
-about conflicting interpretations of a scientific phenomenon, deepening
-understanding and enhancing the generality and explanatory power of the
-new concept across different contexts. Both methods aim to induce
-cognitive incongruence, a state of mental conflict that arises when new
-information challenges existing beliefs, which can evoke epistemic
-emotions. These emotions, directly related to knowledge acquisition and
-cognitive processing, can either enhance learning, such as curiosity and
-enjoyment, or impede it, such as frustration and anxiety (Muis et al.,
-2018; Pekrun, 2024). The proposed project aims to investigate the
-combined use of refutation texts and dialogical argumentation in
-promoting and consolidating conceptual change and examines the role of
-epistemic emotions in mediating these processes, contributing to a
-deeper understanding of the emotional dynamics involved in conceptual
-change.
+phenomena. These misconceptions typically develop through everyday
+experiences or even as a result of prior classroom instruction, and
+while they may be functional in daily reasoning, they often contradict
+scientific explanations. Achieving a *conceptual change*, that is, a
+shift from intuitive or naïve conceptions to scientifically accurate
+understanding, is known to be a challenging and gradual process (Chi &
+Vosniadou, 2008; diSessa, 2017; Vosniadou, 1994). Moreover, research
+suggests that alternative and scientific conceptions can coexist for
+extended periods before a stable conceptual restructuring occurs.
+
+To facilitate conceptual change, instructional approaches such as
+*refutation texts* and *dialogical argumentation* have proven effective.
+Refutation texts explicitly present a common misconception, refute it,
+and then introduce the scientifically accepted concept. Dialogical
+argumentation engages learners in discussing and reasoning about
+conflicting viewpoints. Both methods are designed to induce *cognitive
+incongruence*, a state of mental conflict that arises when new
+information challenges existing beliefs.
+
+Experiencing such incongruence can evoke *epistemic emotions*, which are
+emotions directly related to knowledge acquisition and cognitive
+processing. These emotions can either enhance learning—such as curiosity
+and enjoyment—or hinder it—such as frustration and anxiety (Muis et al.,
+2018; Pekrun, 2024).
+
+The present study aims to investigate the combined use of refutation
+texts and dialogical argumentation in promoting and consolidating
+conceptual change. Furthermore, it seeks to explore the role of
+epistemic emotions in mediating or moderating these learning processes,
+thereby contributing to a deeper understanding of the emotional dynamics
+involved in conceptual change.
 
 ### Refutation Texts
 
@@ -149,14 +151,15 @@ flowchart LR
 ```
 
 =\> How should engagement be operationalized and measured (e.g.,
-keystrokes)?  
+keystrokes)?   
 =\> Should the quality/strategy of argumentation also be evaluated in
 Study 3 (how is this operationalized and measured)?
 
 ### Shared Material
 
 - Pre-/Post-Test
-- Refutation text A, B, C
+- Topic: chemical bonding
+- Refutation text or information text A, B, C
 - Consolidation Task Design: two-tier (ordered) multiple-choice with
   varying contexts
   1.  closed format (OMC)
@@ -165,6 +168,14 @@ Study 3 (how is this operationalized and measured)?
   4.  open format - revision
 
 =\> How should open-ended answers be coded and evaluated?
+
+- Assessment of epistemic emotions:
+  - EES-D Vogl et al. (2018) =\> metric outcome
+  - DynamicEmo Jheng et al. (2025) =\> binary outcome
+  - Measurements were obtained at fixed time points (e.g., following the
+    reading of an argument) and at randomized intervals (e.g., during
+    the composition of an explanation; ESM =\> [TINTERVAL,
+    (R)DSEM](http://www.statmodel.com/download/WT6.pdf)).
 
 ## Study 1
 
@@ -183,17 +194,19 @@ Study 3 (how is this operationalized and measured)?
 <caption>Overview of Study Procedure for Control (CG) and Experimental
 Groups (EG)</caption>
 <colgroup>
-<col style="width: 5%" />
-<col style="width: 36%" />
+<col style="width: 4%" />
+<col style="width: 28%" />
+<col style="width: 18%" />
+<col style="width: 22%" />
 <col style="width: 25%" />
-<col style="width: 30%" />
 </colgroup>
 <thead>
 <tr>
 <th>Phase</th>
 <th>Shared Procedure</th>
-<th>CG Description</th>
-<th>EG Description</th>
+<th>CG 0</th>
+<th>CG 1</th>
+<th>EG</th>
 </tr>
 </thead>
 <tbody>
@@ -201,6 +214,7 @@ Groups (EG)</caption>
 <td>Pre-test</td>
 <td>Assess students’ conceptual understanding of <strong>chemical
 reactions</strong>.</td>
+<td></td>
 <td>—</td>
 <td>—</td>
 </tr>
@@ -213,14 +227,17 @@ order</li>
 <li>Students explain to an LLM agent <em>why</em> the provided answer is
 correct</li>
 </ul></td>
-<td>LLM provides corrective feedback on the student’s explanations</td>
+<td>Students receive summative feedback following each task.</td>
+<td>LLM provides corrective feedback on the student’s explanations
+(chat)</td>
 <td>LLM formulates counterarguments and requests clarification from the
-student</td>
+student (chat)</td>
 </tr>
 <tr>
 <td>Post-test</td>
 <td>Assess students’ conceptual understanding of <strong>chemical
 reactions</strong> after the intervention</td>
+<td></td>
 <td>—</td>
 <td>—</td>
 </tr>
@@ -362,18 +379,20 @@ objectives of argumentation.</td>
 <td>Students complete multiple tasks on chemical reactions in randomized
 order</td>
 <td><ul>
-<li>Receive correct answers</li>
-<li>Explain to an LLM agent <em>why</em> the provided answer is
-correct</li>
-<li>Engage in dialogic argumentation with two LLM agents: one accurate,
-one exhibiting misconceptions and inappropriate task interpretation</li>
+<li><p>Receive correct answers</p></li>
+<li><p>Explain to an LLM agent <em>why</em> the provided answer is
+correct</p></li>
+<li><p>Engage in dialogic argumentation with two LLM agents: one
+accurate, one exhibiting misconceptions and inappropriate task
+interpretation</p></li>
 </ul></td>
 <td><ul>
-<li>Receive correct answers</li>
-<li>Explain to an LLM agent <em>why</em> the provided answer is
-correct</li>
-<li>Engage in dialogic argumentation with two LLM agents: one accurate,
-one exhibiting misconceptions and inappropriate task interpretation</li>
+<li><p>Receive correct answers</p></li>
+<li><p>Explain to an LLM agent <em>why</em> the provided answer is
+correct</p></li>
+<li><p>Engage in dialogic argumentation with two LLM agents: one
+accurate, one exhibiting misconceptions and inappropriate task
+interpretation</p></li>
 </ul></td>
 </tr>
 <tr>
@@ -439,6 +458,16 @@ education: a meta-analysis based on the results of 17 experiments.
 
 </div>
 
+<div id="ref-jheng2025_investigating" class="csl-entry">
+
+Jheng, Y.-L., Catrysse, L., Van De Cruys, S., Kendeou, P., Poels, K., &
+Gijbels, D. (2025). Investigating epistemic emotions experienced while
+reading refutation texts through a fine-grained measure of emotion. *Npj
+Science of Learning*, *10*(1), 30.
+<https://doi.org/10.1038/s41539-025-00324-3>
+
+</div>
+
 <div id="ref-kroger2025_promoting" class="csl-entry">
 
 Kröger, J., Härtig, H., Retelsdorf, J., & Bernholt, S. (2025). Promoting
@@ -491,6 +520,15 @@ Schroeder, N. L., & Kucera, A. C. (2022). Refutation Text Facilitates
 Learning: a Meta-Analysis of Between-Subjects Experiments. *Educational
 Psychology Review*, *34*(2), 957–987.
 <https://doi.org/10.1007/s10648-021-09656-z>
+
+</div>
+
+<div id="ref-vogl2018" class="csl-entry">
+
+Vogl, E., Pekrun, R., & Muis, K. R. (2018). *Validierung eines
+deutschsprachigen Instruments zur Messung epistemischer Emotionen. Die
+Epistemic Emotion Scales - Deutsch (EES-D)* (T. Hascher & G. Hagenauer,
+Eds.; pp. 259–272). Waxmann Verlag.
 
 </div>
 
