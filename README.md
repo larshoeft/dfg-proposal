@@ -1,6 +1,25 @@
 # Learning Chemistry through Dialogic Argumentation
 Lars Höft
 
+- Should a ‘conceptual change’ be promoted, or ‘better’ modes of
+  reasoning?
+  - [ ] While establishing an ordinal scale for the ‘degree of
+    conceptual change’ is challenging, a corresponding scale for modes
+    of reasoning already exists theoretically and has been
+    operationalized (De Andrade et al., 2019; Yan & Talanquer, 2015)
+    (Jannik). A key challenge, however, is ensuring that the chatbot can
+    also be aligned with a specific level on this scale.
+  - [ ] A more coherent argumentative line can be achieved by focusing
+    on the effects of (dialogical) argumentation without relying on
+    refutation texts.
+  - =\> Rather than employing refutation texts, expository texts akin to
+    those used in conventional textbooks could also be utilized.
+- Against what should the learning effectiveness of interventions
+  involving dialogical argumentation be compared? If the context is
+  framed as homework (individual work without an expert), appropriate
+  comparison groups could include: a) no support, b) a standard chatbot,
+  and c) a model solution.
+
 ## Introduction
 
 Students often enter the classroom with preconceptions or alternative
@@ -36,6 +55,8 @@ conceptual change. Furthermore, it seeks to explore the role of
 epistemic emotions in mediating or moderating these learning processes,
 thereby contributing to a deeper understanding of the emotional dynamics
 involved in conceptual change.
+
+=\> Hausaufgabenkontext als Beispiel
 
 ### Refutation Texts
 
@@ -155,17 +176,18 @@ keystrokes)? 
 =\> Should the quality/strategy of argumentation also be evaluated in
 Study 3 (how is this operationalized and measured)?
 
-### Shared Material
+### Material
 
+- Topics: chemical bonding/ chemical equilibrium
 - Pre-/Post-Test
-- Topic: chemical bonding
-- Refutation text or information text A, B, C
+- Expository text
 - Consolidation Task Design: two-tier (ordered) multiple-choice with
   varying contexts
   1.  closed format (OMC)
-  2.  open format - reasoning
-  3.  chat - argument
-  4.  open format - revision
+  2.  open format - reasoning (notes)
+  3.  Simutaiously
+      - feeback, chatbot, dialogic argumentation
+      - open format - revision
 
 =\> How should open-ended answers be coded and evaluated?
 
@@ -176,6 +198,8 @@ Study 3 (how is this operationalized and measured)?
     reading of an argument) and at randomized intervals (e.g., during
     the composition of an explanation; ESM =\> [TINTERVAL,
     (R)DSEM](http://www.statmodel.com/download/WT6.pdf)).
+- Motivation:
+  - (S)EVT value items auch als outcome
 
 ## Study 1
 
@@ -190,56 +214,90 @@ Study 3 (how is this operationalized and measured)?
 
 ### Procedure
 
-<table style="width:99%;">
+<table style="width:100%;">
 <caption>Overview of Study Procedure for Control (CG) and Experimental
 Groups (EG)</caption>
 <colgroup>
-<col style="width: 4%" />
-<col style="width: 28%" />
-<col style="width: 18%" />
-<col style="width: 22%" />
-<col style="width: 25%" />
+<col style="width: 12%" />
+<col style="width: 7%" />
+<col style="width: 13%" />
+<col style="width: 32%" />
+<col style="width: 32%" />
 </colgroup>
 <thead>
 <tr>
 <th>Phase</th>
-<th>Shared Procedure</th>
-<th>CG 0</th>
-<th>CG 1</th>
-<th>EG</th>
+<th>CG1</th>
+<th>CG2</th>
+<th>EG1</th>
+<th>EG2</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Pre-test</td>
-<td>Assess students’ conceptual understanding of <strong>chemical
-reactions</strong>.</td>
 <td></td>
-<td>—</td>
-<td>—</td>
+<td><strong>Immediate Feedback</strong></td>
+<td><strong>Chatbot</strong></td>
+<td><strong>Pro-Arguments</strong></td>
+<td><strong>Contra-Arguments</strong></td>
 </tr>
 <tr>
-<td>Manipulation</td>
-<td><ul>
+<td>Pre-test</td>
+<td>Assess students’ competency in argumentation.</td>
+<td>Assess students’ competency in argumentation.</td>
+<td>Assess students’ competency in argumentation.</td>
+<td>Assess students’ competency in argumentation.</td>
+</tr>
+<tr>
+<td><p>Manipulation:</p>
+<ul>
 <li>Students complete multiple tasks on chemical reactions in randomized
 order</li>
-<li>Correct answers are provided</li>
-<li>Students explain to an LLM agent <em>why</em> the provided answer is
-correct</li>
+<li>?Correct answers are provided</li>
 </ul></td>
-<td>Students receive summative feedback following each task.</td>
-<td>LLM provides corrective feedback on the student’s explanations
-(chat)</td>
-<td>LLM formulates counterarguments and requests clarification from the
-student (chat)</td>
+<td><p>Procedure per task</p>
+<p>Students …</p>
+<ol type="1">
+<li>read the task and the correct answer,</li>
+<li>formulate an explanation,</li>
+<li>receive immediate feedback, and</li>
+<li>revise their explanation.</li>
+</ol></td>
+<td><p>Procedure per task</p>
+<p>Students …</p>
+<ol type="1">
+<li>read the task and the correct answer,</li>
+<li>formulate an explanation, and</li>
+<li>use the chatbot while simultaneously revising their explanation
+multiple times.</li>
+</ol></td>
+<td><p>Procedure per task</p>
+<p>Students …</p>
+<ol type="1">
+<li>read the task and the correct answer,</li>
+<li>formulate an explanation, and</li>
+<li>argue with the chatbot while simultaneously revising their
+explanation multiple times. They are asked to explain <em>why</em> the
+provided answer is correct. The chatbot provides only correct
+pro-arguments.</li>
+</ol></td>
+<td><p>Procedure per task</p>
+<p>Students …</p>
+<ol type="1">
+<li>read the task and the correct answer,</li>
+<li>formulate an explanation, and</li>
+<li>argue with the chatbot while simultaneously revising their
+explanation multiple times. They are asked to explain <em>why</em> the
+provided answer is correct. The chatbot provides correct
+contra-arguments.</li>
+</ol></td>
 </tr>
 <tr>
 <td>Post-test</td>
-<td>Assess students’ conceptual understanding of <strong>chemical
-reactions</strong> after the intervention</td>
-<td></td>
-<td>—</td>
-<td>—</td>
+<td>Assess students’ conceptual understanding</td>
+<td>Assess students’ conceptual understanding</td>
+<td>Assess students’ conceptual understanding</td>
+<td>Assess students’ conceptual understanding</td>
 </tr>
 </tbody>
 </table>
@@ -248,6 +306,8 @@ reactions</strong> after the intervention</td>
 describes steps common to both groups.
 
 =\> Is a control group without LLM interaction (chat) necessary?
+
+=\> Feedback: Falsch ist, Richtig ist, Falsch ist weil, Richtig ist weil
 
 ## Study 2
 
@@ -265,21 +325,19 @@ describes steps common to both groups.
 
 ### Procedure:
 
-<table style="width:99%;">
+<table style="width:100%;">
 <caption>Overview of Study Procedure for Control (CG) and Experimental
 Groups (EG)</caption>
 <colgroup>
-<col style="width: 3%" />
-<col style="width: 19%" />
-<col style="width: 17%" />
-<col style="width: 28%" />
-<col style="width: 30%" />
+<col style="width: 11%" />
+<col style="width: 6%" />
+<col style="width: 40%" />
+<col style="width: 41%" />
 </colgroup>
 <thead>
 <tr>
 <th>Phase</th>
-<th>Shared Procedure</th>
-<th>Control Group</th>
+<th>S1EG1 or S2EG2</th>
 <th>Experimental Group 1</th>
 <th>Experimental Group 2</th>
 </tr>
@@ -287,46 +345,50 @@ Groups (EG)</caption>
 <tbody>
 <tr>
 <td>Pre-Test</td>
-<td>Assess students’ conceptual understanding of <strong>chemical
-reactions</strong>.</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
+<td>Assess students’ competency in argumentation.</td>
+<td>Assess students’ competency in argumentation.</td>
+<td>Assess students’ competency in argumentation.</td>
 </tr>
 <tr>
-<td>Manipulation</td>
-<td>Students complete multiple tasks on chemical reactions in randomized
-order</td>
-<td><ul>
-<li>Receive correct answers</li>
-<li>Explain to an LLM agent <em>why</em> the provided answer is
-correct</li>
-<li>Engage in dialogic argumentation with a typical/default LLM (see
-Study 1)</li>
+<td><p>Manipulation:</p>
+<ul>
+<li>Students complete multiple tasks on chemical reactions in randomized
+order</li>
+<li>?Correct answers are provided</li>
 </ul></td>
 <td><ul>
-<li>Receive correct answers</li>
-<li>Explain to an LLM agent <em>why</em> the provided answer is
-correct</li>
-<li>Engage in dialogic argumentation with two LLM agents: both
-exhibiting accurate understanding of the scientific concept and
-task</li>
+<li>Description of Study 1 EG1 or EG2</li>
 </ul></td>
+<td><p>Procedure per task</p>
+<p>Students …</p>
+<ol type="1">
+<li>read the task and the correct answer,</li>
+<li>formulate an explanation, and</li>
+<li>argue with the chatbot while simultaneously revising their
+explanation multiple times. They are asked to explain <em>why</em> the
+provided answer is correct. Engage in dialogic argumentation with two
+LLM agents: both exhibiting accurate understanding of the scientific
+concept and task.</li>
+</ol></td>
 <td><ul>
-<li>Receive correct answers</li>
-<li>Explain to an LLM agent <em>why</em> the provided answer is
-correct</li>
-<li>Engage in dialogic argumentation with two LLM agents: one accurate,
-one exhibiting misconceptions and inappropriate task interpretation</li>
+<li><p>Procedure per task</p>
+<p>Students …</p>
+<ol type="1">
+<li>read the task and the correct answer,</li>
+<li>formulate an explanation, and</li>
+<li>argue with the chatbot while simultaneously revising their
+explanation multiple times. They are asked to explain <em>why</em> the
+provided answer is correct. Engage in dialogic argumentation with two
+LLM agents: one accurate, one exhibiting misconceptions and
+inappropriate task interpretation.</li>
+</ol></li>
 </ul></td>
 </tr>
 <tr>
 <td>Post-Test</td>
-<td>Assess students’ conceptual understanding of <strong>chemical
-reactions</strong> after the intervention</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
+<td>Assess students’ conceptual understanding</td>
+<td>Assess students’ conceptual understanding</td>
+<td>Assess students’ conceptual understanding</td>
 </tr>
 </tbody>
 </table>
@@ -342,65 +404,73 @@ describes steps common to both groups.
     understanding during dialogic argumentation, and is this effect
     mediated by reductions in confusion and frustration?
 
-<table style="width:99%;">
+<table style="width:100%;">
 <caption>Overview of Study Procedure for Control (CG) and Experimental
 Groups (EG)</caption>
 <colgroup>
-<col style="width: 3%" />
-<col style="width: 22%" />
-<col style="width: 36%" />
-<col style="width: 36%" />
+<col style="width: 11%" />
+<col style="width: 43%" />
+<col style="width: 43%" />
 </colgroup>
 <thead>
 <tr>
 <th>Phase</th>
-<th>Shared Procedure</th>
-<th>Control Group</th>
-<th>Experimental Group</th>
+<th>Control Group (S2EG2)</th>
+<th>Experimental Group (S2EG2)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Pre-Test</td>
-<td>Assess students’ conceptual understanding of <strong>chemical
-reactions</strong>.</td>
-<td>—</td>
-<td>—</td>
+<td>Assess students’ competency in argumentation.</td>
+<td>Assess students’ competency in argumentation.</td>
 </tr>
 <tr>
 <td>Intervention</td>
-<td></td>
 <td></td>
 <td>Students receive instruction on argument formulation and the
 objectives of argumentation.</td>
 </tr>
 <tr>
-<td></td>
-<td>Students complete multiple tasks on chemical reactions in randomized
-order</td>
-<td><ul>
-<li><p>Receive correct answers</p></li>
-<li><p>Explain to an LLM agent <em>why</em> the provided answer is
-correct</p></li>
-<li><p>Engage in dialogic argumentation with two LLM agents: one
-accurate, one exhibiting misconceptions and inappropriate task
-interpretation</p></li>
+<td><p>Manipulation:</p>
+<ul>
+<li>Students complete multiple tasks on chemical reactions in randomized
+order</li>
+<li>?Correct answers are provided</li>
 </ul></td>
 <td><ul>
-<li><p>Receive correct answers</p></li>
-<li><p>Explain to an LLM agent <em>why</em> the provided answer is
-correct</p></li>
-<li><p>Engage in dialogic argumentation with two LLM agents: one
-accurate, one exhibiting misconceptions and inappropriate task
-interpretation</p></li>
+<li><p>Procedure per task</p>
+<p>Students …</p>
+<ol type="1">
+<li>read the task and the correct answer,</li>
+<li>formulate an explanation, and</li>
+<li>argue with the chatbot while simultaneously revising their
+explanation multiple times. They are asked to explain <em>why</em> the
+provided answer is correct. Engage in dialogic argumentation with two
+LLM agents: one accurate, one exhibiting misconceptions and
+inappropriate task interpretation.</li>
+</ol></li>
+</ul></td>
+<td><ul>
+<li><p>Procedure per task</p>
+<p>Students …</p>
+<ol type="1">
+<li>read the task and the correct answer,</li>
+<li>formulate an explanation, and</li>
+<li>argue with the chatbot while simultaneously revising their
+explanation multiple times. They are asked to explain <em>why</em> the
+provided answer is correct. Engage in dialogic argumentation with two
+LLM agents: one accurate, one exhibiting misconceptions and
+inappropriate task interpretation.</li>
+</ol></li>
 </ul></td>
 </tr>
 <tr>
 <td>Post-Test</td>
 <td>Assess students’ conceptual understanding of chemical reactions
 after the intervention</td>
-<td>—</td>
-<td>—</td>
+<td>Assess students’ conceptual understanding of chemical reactions
+after the intervention</td>
 </tr>
 </tbody>
 </table>
@@ -438,6 +508,15 @@ Danielson, R. W., Sinatra, G. M., Trevors, G., Muis, K. R., Pekrun, R.,
 & Heddy, B. C. (2023). Can Multiple Texts Prompt Causal Thinking? The
 Role of Epistemic Emotions. *The Journal of Experimental Education*,
 *91*(4), 621–635. <https://doi.org/10.1080/00220973.2022.2107604>
+
+</div>
+
+<div id="ref-deandrade2019_constructing" class="csl-entry">
+
+De Andrade, V., Freire, S., & Baptista, M. (2019). Constructing
+scientific explanations: A system of analysis for students’
+explanations. *Research in Science Education*, *49*(3), 787–807.
+<https://doi.org/10.1007/s11165-017-9648-9>
 
 </div>
 
@@ -537,6 +616,15 @@ Eds.; pp. 259–272). Waxmann Verlag.
 Vosniadou, S. (1994). Capturing and modeling the process of conceptual
 change. *Learning and Instruction*, *4*(1), 45–69.
 <https://doi.org/10.1016/0959-4752(94)90018-3>
+
+</div>
+
+<div id="ref-yan2015_students" class="csl-entry">
+
+Yan, F., & Talanquer, V. (2015). Students’ ideas about how and why
+chemical reactions happen: Mapping the conceptual landscape.
+*International Journal of Science Education*, *37*(18), 3066–3092.
+<https://doi.org/10.1080/09500693.2015.1121414>
 
 </div>
 
